@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+# Welcome to my Movie App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Built with Expo, TypeScript, and Tailwind CSS, this app fetches movies and creates a popularity algorithm using Appwrite. It provides users with a seamless browsing experience, ranking movies based on various engagement metrics. The app leverages modern UI/UX principles for a responsive and visually appealing interface, ensuring real-world scalability and performance.
 
-## Get started
+## 🧩 Tech Stack
 
-1. Install dependencies
+- **[Expo](https://expo.dev/)** – open-source platform for building universal native apps (Android, iOS, web) using JavaScript/TypeScript and React Native.  
+  Features file-based routing via Expo Router, fast refresh, native modules for camera/maps/notifications, over-the-air updates (EAS), and streamlined app deployment.
 
-   ```bash
-   npm install
-   ```
+- **[React Native](https://reactnative.dev/)** – framework for building mobile UIs with React.  
+  Enables component-based, cross-platform development with declarative UI and deep native API support, tightly integrated with Expo for navigation and native capabilities.
 
-2. Start the app
+- **[Appwrite](https://appwrite.io/)** – open-source backend-as-a-service platform offering secure authentication (email/password, OAuth, SMS, magic links), databases, file storage with compression/encryption, real-time messaging, serverless functions, and static site hosting via Appwrite Sites — all managed through a unified console and microservices architecture.
 
-   ```bash
-   npx expo start
-   ```
+- **[TypeScript](https://www.typescriptlang.org/)** – statically-typed superset of JavaScript providing type annotations, interfaces, enums, generics, and enhanced tooling.  
+  Improves error detection, code quality, and scalability — ideal for robust, maintainable projects.
 
-In the output, you'll find options to open the app in a
+- **[Tailwind CSS](https://tailwindcss.com/)** – utility-first CSS framework enabling rapid UI design via low-level classes.  
+  Commonly used with NativeWind to apply Tailwind-style utilities to mobile components in React Native/Expo.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **[NativeWind](https://www.nativewind.dev/)** – brings Tailwind CSS to React Native and Expo, allowing you to style mobile components using utility-first classes for fast, consistent, and responsive UI design.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📱 Features
 
-## Get a fresh project
+**Features of the Mobile Movie App Project**
 
-When you're ready, run:
+👉 **Real-time data:** Fetching and displaying real-time movie data.
 
-```bash
-npm run reset-project
-```
+👉 **Home Page:** Featured and discover movies.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+👉 **Search Page:** Search for your favorite movies.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+👉 **Popularity algorithm:** Track user searches to display the most popular movies.
