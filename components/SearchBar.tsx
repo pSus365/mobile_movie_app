@@ -2,7 +2,7 @@ import {Image, View, Text, TextInput} from 'react-native'
 import React from 'react'
 import {icons} from "@/constants/icons";
 import search from "@/app/(tabs)/search";
-
+{/* importowac z constansow */}
 const SearchBar = () => {
     return (
         <View className="flex-row items-center bg-dark-200 rounded-full px-5 py-4">
